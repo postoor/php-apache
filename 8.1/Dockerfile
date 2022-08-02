@@ -1,4 +1,4 @@
-FROM php:8.1.5-apache
+FROM php:8.1.8-apache
 
 RUN apt-get update &&\
     apt-get install -y -qq libpq-dev libpng-dev libxslt-dev cron jq logrotate unzip argon2 
